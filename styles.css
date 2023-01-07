@@ -72,7 +72,7 @@
 }
 /* Container Top End */
 
-/* My Plans Start */
+/* My Plans Styles Start */
 .plans-title{
     font-size: 40px;
     font-weight: 700;
@@ -106,6 +106,9 @@
     font-size: 17px;
     text-align: center;
 }
+/* My Plans Styles End */
+
+/* My Personality Styles Start */
 .honest-icon{
     height: 93px;
     width: 93px;
@@ -137,6 +140,7 @@
         display: flex;
         justify-content: space-around;
         padding-top: 50px;
+        padding-bottom: 150px;
         margin-left: 180px;
         margin-right: 120px;
 }
@@ -164,4 +168,100 @@
     color: #737272;
     font-size: 17px;
     padding-right: 20px;
+}
+/* My Personality Styles End */
+
+/* Motivation Parts Styles */
+.motivation{
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 280px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.motivation-word{
+    padding-top: 65px;
+    padding-left: 64px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #005FAC,rgba(255, 253, 253, 0));
+}
+.call-btn{
+    background-color: #FFFFFF;
+    color: #005FAC;
+    width: 160px;
+    height: 64px;
+    margin-left: 64px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600px;
+    border-radius: 5px;
+    border-style: none;
+}
+.call-button{
+    background-image: linear-gradient(to right, #005FAC,#005fac00);
+    height: 121px;
+}
+/* Motivation parts Styles End */
+
+/* Footer Styles Start */
+.footer{
+    display: flex;
+    background-color: #151414;
+    padding-bottom: 100px;
+}
+.info{
+    width: 50%;
+    padding-left: 150px;
+    padding-right: 200px;
+}
+.info-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.info-email{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.information{
+    color: #FFFFFF;
+    line-height: 25px;
+}
+.social{
+    padding-top: 30px;
+}
+.twt{
+    padding: 0 10px;
+}
+.helpline{
+    padding-top: 100px;
+}
+.subscribe{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+.email{
+    background-color: #151414;
+    width: 265px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: groove;
+    padding-left: 10px;
+}
+.subscribe-btn{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-color: #005FAC;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
 }
